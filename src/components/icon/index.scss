@@ -1,0 +1,45 @@
+@import '../../styles/import';
+
+$icon-prefix: #{$prefix}-icon;
+
+
+.#{$icon-prefix} {
+    background-size: cover;
+    fill: currentColor;
+    color: $color-orange-light;
+
+    &-sm {
+        height: 12px;
+        width: 12px;
+    }
+
+    &-md {
+        height: 24px;
+        width: 24px;
+    }
+
+    &-lg {
+        height: 32px;
+        width: 32px;
+    }
+
+    &-file {
+        height: 68px;
+        width: 78px;
+    }
+
+    &-polygon {
+        fill: none;
+        color: $color-orange-light;
+        stroke-width: 1.5
+    }
+
+    &-bold {
+        color: $color-orange-light;
+    }
+}
+
+.nm-sub-icon {
+    // color: $theme-color-secondary;
+    opacity: 0.2;
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2015",
+    "lib": ["es6", "dom", "es2017"],
+    "jsx": "react",
+    "types": ["webpack-env", "node"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["__tests__"],
+  "include": ["src/**/*", "typings/*"]
+}
